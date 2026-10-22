@@ -1,7 +1,7 @@
 # User Stories
-___
+
 ## MVP User Stories
-___
+
 ### User Authentication and Account Management
 #### Sign Up *
 As a new user I want to create an account so that I can save forecast locations and playlists.
@@ -25,9 +25,9 @@ As a visitor I want to be able to see a playlist recommended based on the curren
 ### Spotify Playlist Saving
 #### Save Playlist Recommendation for Future Access *
 As a registered user I want to be able to save recommended playlists so that I can access them later.
-___
+
 ## Non-MVP User Stories
-___
+
 ## Weather Viewing
 #### Find Future Weather Forecast by Location Name *
 As a visitor I want to be able to search for a location and get the future forecast for that location.
