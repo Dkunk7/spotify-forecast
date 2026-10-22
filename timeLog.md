@@ -10,3 +10,6 @@ I spent an hour and a half doing project setup. In this time, I:
 - Created project on IntelliJ and pushed it
 - Added link to indie projects list in student repo
 - Wrote user stories (both MVP and Non-MVP)
+
+I spent another hour and a half considering the specifics of the application and 
+setting up configuration/dependency related things.
