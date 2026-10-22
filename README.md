@@ -7,4 +7,6 @@ very similar. Yeah, you can keep track of the weather, but we've always been abl
 anything special.
 
 Spotify Forecast will not only show you the weather conditions you're looking for, but will also suggest Spotify playlists
-based on the mood of the current weather. 
+based on the mood of the current weather. Let's say you're leaving home for work, and you forgot to check the weather beforehand.
+In the same time it would have taken to check any of the usual apps, you also be able to get your day rolling with a list
+of tunes that matches the mood outside!
