@@ -1,4 +1,4 @@
-package edu.matc.persistence;
+package edu.matc.entity;
 
 public class WeatherReport {
 }
