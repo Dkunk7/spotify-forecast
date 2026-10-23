@@ -18,8 +18,9 @@
         <property name="hibernate.c3p0.idle_test_period">3000</property>
         <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
 
-<!--        <mapping class="edu.matc.entity.Author" />-->
-<!--        <mapping class="edu.matc.entity.Book" />-->
+        <mapping class="edu.matc.entity.User" />
+        <mapping class="edu.matc.entity.Playlist" />
+        <mapping class="edu.matc.entity.WeatherReport" />
         <!--xTODO add mapping for the new class-->
     </session-factory>
 
