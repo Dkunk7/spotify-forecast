@@ -111,4 +111,22 @@ public class User {
         playlists.remove(playlist);
     }
 
+    /**
+     * Instantiates a new User.
+     */
+    public User() {
+
+    }
+
+    /**
+     * Instantiates a new User.
+     *
+     * @param username the username
+     * @param email    the email
+     */
+    public User(String username, String email) {
+        this.username = username;
+        this.email = email;
+    }
+
 }
