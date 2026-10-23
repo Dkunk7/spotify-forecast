@@ -13,3 +13,8 @@ I spent an hour and a half doing project setup. In this time, I:
 
 I spent another hour and a half considering the specifics of the application and 
 setting up configuration/dependency related things.
+
+### Entry 2 (10/23/26)
+Started work on screen design. Created classes for User, Playlist, and WeatherReport. Playlist and WeatherReport
+will need updating once I know exactly what the APIs need/return. I wrote some notes for future logic where I know
+I'll need it.
