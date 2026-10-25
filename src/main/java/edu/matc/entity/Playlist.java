@@ -1,7 +1,7 @@
 package edu.matc.entity;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
+import org.hibernate.annotations.GenericGenerator;
 
 /**
  * Represents a playlist from the Spotify API.
@@ -9,9 +9,51 @@ import jakarta.persistence.Table;
 @Entity(name = "Playlist")
 @Table(name = "playlist")
 public class Playlist {
-    // Find out what else I need here
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY, generator = "native")
+    @GenericGenerator(name = "native")
+    private Integer id;
+
+    @Column(name = "name")
     private String playlistName;
+    @Column(name = "url")
     private String playlistLink;
+
+
+    /**
+     * Gets id.
+     *
+     * @return the id
+     */
+    public Integer getId() {
+        return id;
+    }
+
+    /**
+     * Sets id.
+     *
+     * @param id the id
+     */
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    /**
+     * Instantiates a new Playlist.
+     */
+    public Playlist() {}
+
+    /**
+     * Instantiates a new Playlist.
+     *
+     * @param playlistName the playlist name
+     * @param playlistLink the playlist link
+     */
+    public Playlist(String playlistName, String playlistLink) {
+        this.playlistName = playlistName;
+        this.playlistLink = playlistLink;
+    }
 
     /**
      * Gets playlist link.
