@@ -1,0 +1,61 @@
+package com.openMeteo;
+
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+public class HourlyUnits{
+
+	@JsonProperty("wind_speed_10m")
+	private String windSpeed10m;
+
+	@JsonProperty("temperature_2m")
+	private String temperature2m;
+
+	@JsonProperty("relative_humidity_2m")
+	private String relativeHumidity2m;
+
+	@JsonProperty("time")
+	private String time;
+
+	public void setWindSpeed10m(String windSpeed10m){
+		this.windSpeed10m = windSpeed10m;
+	}
+
+	public String getWindSpeed10m(){
+		return windSpeed10m;
+	}
+
+	public void setTemperature2m(String temperature2m){
+		this.temperature2m = temperature2m;
+	}
+
+	public String getTemperature2m(){
+		return temperature2m;
+	}
+
+	public void setRelativeHumidity2m(String relativeHumidity2m){
+		this.relativeHumidity2m = relativeHumidity2m;
+	}
+
+	public String getRelativeHumidity2m(){
+		return relativeHumidity2m;
+	}
+
+	public void setTime(String time){
+		this.time = time;
+	}
+
+	public String getTime(){
+		return time;
+	}
+
+	@Override
+ 	public String toString(){
+		return 
+			"HourlyUnits{" + 
+			"wind_speed_10m = '" + windSpeed10m + '\'' + 
+			",temperature_2m = '" + temperature2m + '\'' + 
+			",relative_humidity_2m = '" + relativeHumidity2m + '\'' + 
+			",time = '" + time + '\'' + 
+			"}";
+		}
+}
