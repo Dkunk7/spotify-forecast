@@ -138,3 +138,4 @@ java.sql.SQLSyntaxErrorException: Unknown database 'spotifyforecast'
 	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35) [junit-rt.jar:?]
 	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:237) [junit-rt.jar:?]
 	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58) [junit-rt.jar:?]
+[INFO ] 2026-10-25 18:09:39.370 [main] UserDao - users: [edu.matc.entity.User@66314fee, edu.matc.entity.User@10f8e2d2, edu.matc.entity.User@5d404a3c]
