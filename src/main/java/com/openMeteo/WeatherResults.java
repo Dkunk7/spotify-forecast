@@ -2,7 +2,7 @@ package com.openMeteo;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-public class WeatherReport{
+public class WeatherResults {
 
 	@JsonProperty("elevation")
 	private int elevation;

@@ -13,5 +13,12 @@ ___
 ### 10/23/2026
  - [ ] Screens
  - [ ] Database design
- - [ ] Entities for playlist and weather classes and user
+ - [x] Entities for playlist and weather classes and user
  - [ ] More, depending on how fast I get through the previous steps
+
+### API Logic
+
+* SEARCH geo API with a location (city) name. Return latitude and longitude coords when successful.
+* Use lat and long coords to search the weather API.
+* What does the weather API return?
+  * 
