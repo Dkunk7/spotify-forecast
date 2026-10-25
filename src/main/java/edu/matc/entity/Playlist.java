@@ -1,8 +1,13 @@
 package edu.matc.entity;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+
 /**
  * Represents a playlist from the Spotify API.
  */
+@Entity(name = "Playlist")
+@Table(name = "playlist")
 public class Playlist {
     // Find out what else I need here
     private String playlistName;

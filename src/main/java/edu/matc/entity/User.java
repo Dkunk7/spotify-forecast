@@ -1,8 +1,7 @@
 package edu.matc.entity;
 
-import jakarta.persistence.CascadeType;
-import jakarta.persistence.FetchType;
-import jakarta.persistence.OneToMany;
+import jakarta.persistence.*;
+import org.hibernate.annotations.GenericGenerator;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,9 +10,15 @@ import java.util.List;
  * Represents a user in the Spotify Forecast application. It stores a user's details, including username,
  * email, saved playlists, and saved weather information.
  */
+@Entity(name = "User")
+@Table(name = "user")
 public class User {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY, generator = "native")
+    @GenericGenerator(name = "native")
     private Integer id;
+
     private String username;
     private String email;
 
