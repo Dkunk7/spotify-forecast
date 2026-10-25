@@ -1,13 +1,24 @@
 package edu.matc.entity;
 
+import jakarta.persistence.*;
+import org.hibernate.annotations.GenericGenerator;
+
 /**
  * Represents a weather report in the Spotify Forecast application. It uses an entered location name and matches it to
  * latitude and longitude coordinates to search for the actual weather report.
  */
+@Entity(name = "WeatherReport")
+@Table(name = "weather")
 public class WeatherReport {
-    // Gonna need to use open meteo's geocoding api to convert searched location to coordinates for the actual weather retrieval.
-    // What else goes here?
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY, generator = "native")
+    @GenericGenerator(name = "native")
+    private Integer id;
+
+    @Column(name = "location_name")
     private String locationName;
+
     private String latitude;
     private String longitude;
 
@@ -26,6 +37,24 @@ public class WeatherReport {
         this.locationName = locationName;
         // Use location name to search for coords
         // Use coords to get weather
+    }
+
+    /**
+     * Gets id.
+     *
+     * @return the id
+     */
+    public Integer getId() {
+        return id;
+    }
+
+    /**
+     * Sets id.
+     *
+     * @param id the id
+     */
+    public void setId(Integer id) {
+        this.id = id;
     }
 
     /**

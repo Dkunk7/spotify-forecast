@@ -27,6 +27,8 @@ public class User {
     // Playlist list only needs to be a list of links, I think
     private List<Playlist> playlists = new ArrayList<>();
 
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL,  orphanRemoval = true, fetch = FetchType.EAGER)
+    private List<WeatherReport> weatherReports = new ArrayList<>();
     /**
      * Gets id.
      *
