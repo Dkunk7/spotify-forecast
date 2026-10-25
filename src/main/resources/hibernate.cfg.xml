@@ -4,11 +4,10 @@
         "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
     <session-factory>
-        <property name="connection.url">jdbc:mysql://localhost:3306/SpotifyForecast</property>
+        <property name="connection.url">jdbc:mysql://localhost:3306/spotify_forecast</property>
         <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
 
         <property name="connection.username">root</property>
-<!--        TODO add password-->
         <property name="connection.password">!Jrkffmndd12</property>
 
         <property name="hibernate.c3p0.min_size">5</property>
