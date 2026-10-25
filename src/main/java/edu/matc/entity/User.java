@@ -19,6 +19,7 @@ public class User {
 
     // Check that "user" is correct here
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL,  orphanRemoval = true, fetch = FetchType.EAGER)
+    // Playlist list only needs to be a list of links, I think
     private List<Playlist> playlists = new ArrayList<>();
 
     /**
