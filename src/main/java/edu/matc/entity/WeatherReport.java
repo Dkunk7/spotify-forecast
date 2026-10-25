@@ -22,6 +22,8 @@ public class WeatherReport {
     private String latitude;
     private String longitude;
 
+    @ManyToOne
+    private User user;
 
     /**
      * Instantiates a new Weather report.

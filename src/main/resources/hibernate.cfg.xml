@@ -9,7 +9,7 @@
 
         <property name="connection.username">root</property>
 <!--        TODO add password-->
-        <property name="connection.password"></property>
+        <property name="connection.password">!Jrkffmndd12</property>
 
         <property name="hibernate.c3p0.min_size">5</property>
         <property name="hibernate.c3p0.max_size">20</property>

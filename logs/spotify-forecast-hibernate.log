@@ -1,0 +1,386 @@
+[DEBUG] 2026-10-25 17:42:48.913 [main] IntegratorServiceImpl - Adding Integrator [org.hibernate.boot.beanvalidation.BeanValidationIntegrator].
+[DEBUG] 2026-10-25 17:42:48.919 [main] IntegratorServiceImpl - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+[INFO ] 2026-10-25 17:42:48.971 [main] Version - HHH000412: Hibernate ORM core version 6.4.3.Final
+[DEBUG] 2026-10-25 17:42:48.975 [main] Environment - HHH000206: 'hibernate.properties' not found
+[DEBUG] 2026-10-25 17:42:49.074 [main] LocalXmlResourceResolver - Checking public/system identifiers `-//Hibernate/Hibernate Configuration DTD//EN`/`http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd` as DTD references
+[DEBUG] 2026-10-25 17:42:49.081 [main] JaxbCfgProcessor - cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information
+[DEBUG] 2026-10-25 17:42:49.319 [main] factory - Ignoring CDI for resolving IdentifierGenerator instances as extended or delayed CDI support was enabled
+[DEBUG] 2026-10-25 17:42:49.323 [main] factory - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+[DEBUG] 2026-10-25 17:42:49.323 [main] factory - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+[DEBUG] 2026-10-25 17:42:49.323 [main] factory - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+[DEBUG] 2026-10-25 17:42:49.323 [main] factory - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+[DEBUG] 2026-10-25 17:42:49.324 [main] factory - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+[DEBUG] 2026-10-25 17:42:49.327 [main] factory - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+[DEBUG] 2026-10-25 17:42:49.327 [main] factory - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+[DEBUG] 2026-10-25 17:42:49.329 [main] factory - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+[DEBUG] 2026-10-25 17:42:49.329 [main] factory - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+[DEBUG] 2026-10-25 17:42:49.329 [main] factory - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+[DEBUG] 2026-10-25 17:42:49.329 [main] factory - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+[DEBUG] 2026-10-25 17:42:49.330 [main] factory - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+[DEBUG] 2026-10-25 17:42:49.338 [main] RegionFactoryInitiator - Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+[INFO ] 2026-10-25 17:42:49.339 [main] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[DEBUG] 2026-10-25 17:42:49.427 [main] BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BasicTypeReference@7ae9a33a
+[DEBUG] 2026-10-25 17:42:49.428 [main] BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BasicTypeReference@7ae9a33a
+[DEBUG] 2026-10-25 17:42:49.428 [main] BasicTypeRegistry - Adding type registration java.lang.Boolean -> org.hibernate.type.BasicTypeReference@7ae9a33a
+[DEBUG] 2026-10-25 17:42:49.428 [main] BasicTypeRegistry - Adding type registration numeric_boolean -> org.hibernate.type.BasicTypeReference@301aa982
+[DEBUG] 2026-10-25 17:42:49.428 [main] BasicTypeRegistry - Adding type registration org.hibernate.type.NumericBooleanConverter -> org.hibernate.type.BasicTypeReference@301aa982
+[DEBUG] 2026-10-25 17:42:49.428 [main] BasicTypeRegistry - Adding type registration true_false -> org.hibernate.type.BasicTypeReference@5fc930f0
+[DEBUG] 2026-10-25 17:42:49.428 [main] BasicTypeRegistry - Adding type registration org.hibernate.type.TrueFalseConverter -> org.hibernate.type.BasicTypeReference@5fc930f0
+[DEBUG] 2026-10-25 17:42:49.428 [main] BasicTypeRegistry - Adding type registration yes_no -> org.hibernate.type.BasicTypeReference@3701e6e4
+[DEBUG] 2026-10-25 17:42:49.428 [main] BasicTypeRegistry - Adding type registration org.hibernate.type.YesNoConverter -> org.hibernate.type.BasicTypeReference@3701e6e4
+[DEBUG] 2026-10-25 17:42:49.428 [main] BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.BasicTypeReference@c6634d
+[DEBUG] 2026-10-25 17:42:49.428 [main] BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.BasicTypeReference@c6634d
+[DEBUG] 2026-10-25 17:42:49.428 [main] BasicTypeRegistry - Adding type registration java.lang.Byte -> org.hibernate.type.BasicTypeReference@c6634d
+[DEBUG] 2026-10-25 17:42:49.428 [main] BasicTypeRegistry - Adding type registration binary -> org.hibernate.type.BasicTypeReference@65f58c6e
+[DEBUG] 2026-10-25 17:42:49.428 [main] BasicTypeRegistry - Adding type registration byte[] -> org.hibernate.type.BasicTypeReference@65f58c6e
+[DEBUG] 2026-10-25 17:42:49.429 [main] BasicTypeRegistry - Adding type registration [B -> org.hibernate.type.BasicTypeReference@65f58c6e
+[DEBUG] 2026-10-25 17:42:49.429 [main] BasicTypeRegistry - Adding type registration binary_wrapper -> org.hibernate.type.BasicTypeReference@73ad7e90
+[DEBUG] 2026-10-25 17:42:49.429 [main] BasicTypeRegistry - Adding type registration wrapper-binary -> org.hibernate.type.BasicTypeReference@73ad7e90
+[DEBUG] 2026-10-25 17:42:49.429 [main] BasicTypeRegistry - Adding type registration image -> org.hibernate.type.BasicTypeReference@4ba380c7
+[DEBUG] 2026-10-25 17:42:49.429 [main] BasicTypeRegistry - Adding type registration blob -> org.hibernate.type.BasicTypeReference@784c5ef5
+[DEBUG] 2026-10-25 17:42:49.429 [main] BasicTypeRegistry - Adding type registration java.sql.Blob -> org.hibernate.type.BasicTypeReference@784c5ef5
+[DEBUG] 2026-10-25 17:42:49.429 [main] BasicTypeRegistry - Adding type registration materialized_blob -> org.hibernate.type.BasicTypeReference@31133b6e
+[DEBUG] 2026-10-25 17:42:49.429 [main] BasicTypeRegistry - Adding type registration materialized_blob_wrapper -> org.hibernate.type.BasicTypeReference@29528a22
+[DEBUG] 2026-10-25 17:42:49.429 [main] BasicTypeRegistry - Adding type registration short -> org.hibernate.type.BasicTypeReference@7ea08277
+[DEBUG] 2026-10-25 17:42:49.429 [main] BasicTypeRegistry - Adding type registration short -> org.hibernate.type.BasicTypeReference@7ea08277
+[DEBUG] 2026-10-25 17:42:49.429 [main] BasicTypeRegistry - Adding type registration java.lang.Short -> org.hibernate.type.BasicTypeReference@7ea08277
+[DEBUG] 2026-10-25 17:42:49.429 [main] BasicTypeRegistry - Adding type registration integer -> org.hibernate.type.BasicTypeReference@6401d0a0
+[DEBUG] 2026-10-25 17:42:49.429 [main] BasicTypeRegistry - Adding type registration int -> org.hibernate.type.BasicTypeReference@6401d0a0
+[DEBUG] 2026-10-25 17:42:49.429 [main] BasicTypeRegistry - Adding type registration java.lang.Integer -> org.hibernate.type.BasicTypeReference@6401d0a0
+[DEBUG] 2026-10-25 17:42:49.429 [main] BasicTypeRegistry - Adding type registration long -> org.hibernate.type.BasicTypeReference@4ce14f05
+[DEBUG] 2026-10-25 17:42:49.429 [main] BasicTypeRegistry - Adding type registration long -> org.hibernate.type.BasicTypeReference@4ce14f05
+[DEBUG] 2026-10-25 17:42:49.430 [main] BasicTypeRegistry - Adding type registration java.lang.Long -> org.hibernate.type.BasicTypeReference@4ce14f05
+[DEBUG] 2026-10-25 17:42:49.430 [main] BasicTypeRegistry - Adding type registration float -> org.hibernate.type.BasicTypeReference@71dfcf21
+[DEBUG] 2026-10-25 17:42:49.430 [main] BasicTypeRegistry - Adding type registration float -> org.hibernate.type.BasicTypeReference@71dfcf21
+[DEBUG] 2026-10-25 17:42:49.430 [main] BasicTypeRegistry - Adding type registration java.lang.Float -> org.hibernate.type.BasicTypeReference@71dfcf21
+[DEBUG] 2026-10-25 17:42:49.430 [main] BasicTypeRegistry - Adding type registration double -> org.hibernate.type.BasicTypeReference@b965857
+[DEBUG] 2026-10-25 17:42:49.430 [main] BasicTypeRegistry - Adding type registration double -> org.hibernate.type.BasicTypeReference@b965857
+[DEBUG] 2026-10-25 17:42:49.430 [main] BasicTypeRegistry - Adding type registration java.lang.Double -> org.hibernate.type.BasicTypeReference@b965857
+[DEBUG] 2026-10-25 17:42:49.430 [main] BasicTypeRegistry - Adding type registration big_integer -> org.hibernate.type.BasicTypeReference@61f80d55
+[DEBUG] 2026-10-25 17:42:49.430 [main] BasicTypeRegistry - Adding type registration java.math.BigInteger -> org.hibernate.type.BasicTypeReference@61f80d55
+[DEBUG] 2026-10-25 17:42:49.430 [main] BasicTypeRegistry - Adding type registration big_decimal -> org.hibernate.type.BasicTypeReference@27a7ef08
+[DEBUG] 2026-10-25 17:42:49.430 [main] BasicTypeRegistry - Adding type registration java.math.BigDecimal -> org.hibernate.type.BasicTypeReference@27a7ef08
+[DEBUG] 2026-10-25 17:42:49.430 [main] BasicTypeRegistry - Adding type registration character -> org.hibernate.type.BasicTypeReference@280e8a1a
+[DEBUG] 2026-10-25 17:42:49.430 [main] BasicTypeRegistry - Adding type registration char -> org.hibernate.type.BasicTypeReference@280e8a1a
+[DEBUG] 2026-10-25 17:42:49.430 [main] BasicTypeRegistry - Adding type registration java.lang.Character -> org.hibernate.type.BasicTypeReference@280e8a1a
+[DEBUG] 2026-10-25 17:42:49.431 [main] BasicTypeRegistry - Adding type registration character_nchar -> org.hibernate.type.BasicTypeReference@11e33bac
+[DEBUG] 2026-10-25 17:42:49.431 [main] BasicTypeRegistry - Adding type registration string -> org.hibernate.type.BasicTypeReference@30501e60
+[DEBUG] 2026-10-25 17:42:49.431 [main] BasicTypeRegistry - Adding type registration java.lang.String -> org.hibernate.type.BasicTypeReference@30501e60
+[DEBUG] 2026-10-25 17:42:49.431 [main] BasicTypeRegistry - Adding type registration nstring -> org.hibernate.type.BasicTypeReference@289778cd
+[DEBUG] 2026-10-25 17:42:49.431 [main] BasicTypeRegistry - Adding type registration characters -> org.hibernate.type.BasicTypeReference@7495699f
+[DEBUG] 2026-10-25 17:42:49.431 [main] BasicTypeRegistry - Adding type registration char[] -> org.hibernate.type.BasicTypeReference@7495699f
+[DEBUG] 2026-10-25 17:42:49.431 [main] BasicTypeRegistry - Adding type registration [C -> org.hibernate.type.BasicTypeReference@7495699f
+[DEBUG] 2026-10-25 17:42:49.431 [main] BasicTypeRegistry - Adding type registration wrapper-characters -> org.hibernate.type.BasicTypeReference@7c2312fa
+[DEBUG] 2026-10-25 17:42:49.431 [main] BasicTypeRegistry - Adding type registration text -> org.hibernate.type.BasicTypeReference@4cb0a000
+[DEBUG] 2026-10-25 17:42:49.431 [main] BasicTypeRegistry - Adding type registration ntext -> org.hibernate.type.BasicTypeReference@5ff2e84b
+[DEBUG] 2026-10-25 17:42:49.431 [main] BasicTypeRegistry - Adding type registration clob -> org.hibernate.type.BasicTypeReference@74abbb
+[DEBUG] 2026-10-25 17:42:49.431 [main] BasicTypeRegistry - Adding type registration java.sql.Clob -> org.hibernate.type.BasicTypeReference@74abbb
+[DEBUG] 2026-10-25 17:42:49.432 [main] BasicTypeRegistry - Adding type registration nclob -> org.hibernate.type.BasicTypeReference@64a4dd8d
+[DEBUG] 2026-10-25 17:42:49.432 [main] BasicTypeRegistry - Adding type registration java.sql.NClob -> org.hibernate.type.BasicTypeReference@64a4dd8d
+[DEBUG] 2026-10-25 17:42:49.432 [main] BasicTypeRegistry - Adding type registration materialized_clob -> org.hibernate.type.BasicTypeReference@2dddc1b9
+[DEBUG] 2026-10-25 17:42:49.432 [main] BasicTypeRegistry - Adding type registration materialized_clob_char_array -> org.hibernate.type.BasicTypeReference@65a5d4f9
+[DEBUG] 2026-10-25 17:42:49.432 [main] BasicTypeRegistry - Adding type registration materialized_clob_character_array -> org.hibernate.type.BasicTypeReference@40298285
+[DEBUG] 2026-10-25 17:42:49.432 [main] BasicTypeRegistry - Adding type registration materialized_nclob -> org.hibernate.type.BasicTypeReference@22367b8
+[DEBUG] 2026-10-25 17:42:49.432 [main] BasicTypeRegistry - Adding type registration materialized_nclob_character_array -> org.hibernate.type.BasicTypeReference@41b0ae4c
+[DEBUG] 2026-10-25 17:42:49.432 [main] BasicTypeRegistry - Adding type registration materialized_nclob_char_array -> org.hibernate.type.BasicTypeReference@af9a89f
+[DEBUG] 2026-10-25 17:42:49.432 [main] BasicTypeRegistry - Adding type registration Duration -> org.hibernate.type.BasicTypeReference@6482eef
+[DEBUG] 2026-10-25 17:42:49.432 [main] BasicTypeRegistry - Adding type registration java.time.Duration -> org.hibernate.type.BasicTypeReference@6482eef
+[DEBUG] 2026-10-25 17:42:49.432 [main] BasicTypeRegistry - Adding type registration LocalDateTime -> org.hibernate.type.BasicTypeReference@1fcf9739
+[DEBUG] 2026-10-25 17:42:49.432 [main] BasicTypeRegistry - Adding type registration java.time.LocalDateTime -> org.hibernate.type.BasicTypeReference@1fcf9739
+[DEBUG] 2026-10-25 17:42:49.432 [main] BasicTypeRegistry - Adding type registration LocalDate -> org.hibernate.type.BasicTypeReference@5b498842
+[DEBUG] 2026-10-25 17:42:49.432 [main] BasicTypeRegistry - Adding type registration java.time.LocalDate -> org.hibernate.type.BasicTypeReference@5b498842
+[DEBUG] 2026-10-25 17:42:49.432 [main] BasicTypeRegistry - Adding type registration LocalTime -> org.hibernate.type.BasicTypeReference@1cb37ee4
+[DEBUG] 2026-10-25 17:42:49.432 [main] BasicTypeRegistry - Adding type registration java.time.LocalTime -> org.hibernate.type.BasicTypeReference@1cb37ee4
+[DEBUG] 2026-10-25 17:42:49.432 [main] BasicTypeRegistry - Adding type registration OffsetDateTime -> org.hibernate.type.BasicTypeReference@5bcb04cb
+[DEBUG] 2026-10-25 17:42:49.432 [main] BasicTypeRegistry - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.BasicTypeReference@5bcb04cb
+[DEBUG] 2026-10-25 17:42:49.433 [main] BasicTypeRegistry - Adding type registration OffsetDateTimeWithTimezone -> org.hibernate.type.BasicTypeReference@385e36d4
+[DEBUG] 2026-10-25 17:42:49.433 [main] BasicTypeRegistry - Adding type registration OffsetDateTimeWithoutTimezone -> org.hibernate.type.BasicTypeReference@2fc2a205
+[DEBUG] 2026-10-25 17:42:49.433 [main] BasicTypeRegistry - Adding type registration OffsetTime -> org.hibernate.type.BasicTypeReference@2881ad47
+[DEBUG] 2026-10-25 17:42:49.433 [main] BasicTypeRegistry - Adding type registration java.time.OffsetTime -> org.hibernate.type.BasicTypeReference@2881ad47
+[DEBUG] 2026-10-25 17:42:49.433 [main] BasicTypeRegistry - Adding type registration OffsetTimeUtc -> org.hibernate.type.BasicTypeReference@2bef09c0
+[DEBUG] 2026-10-25 17:42:49.433 [main] BasicTypeRegistry - Adding type registration OffsetTimeWithTimezone -> org.hibernate.type.BasicTypeReference@62ce72ff
+[DEBUG] 2026-10-25 17:42:49.433 [main] BasicTypeRegistry - Adding type registration OffsetTimeWithoutTimezone -> org.hibernate.type.BasicTypeReference@58a63629
+[DEBUG] 2026-10-25 17:42:49.433 [main] BasicTypeRegistry - Adding type registration ZonedDateTime -> org.hibernate.type.BasicTypeReference@7de843ef
+[DEBUG] 2026-10-25 17:42:49.433 [main] BasicTypeRegistry - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.BasicTypeReference@7de843ef
+[DEBUG] 2026-10-25 17:42:49.433 [main] BasicTypeRegistry - Adding type registration ZonedDateTimeWithTimezone -> org.hibernate.type.BasicTypeReference@2e1af49b
+[DEBUG] 2026-10-25 17:42:49.433 [main] BasicTypeRegistry - Adding type registration ZonedDateTimeWithoutTimezone -> org.hibernate.type.BasicTypeReference@3fd2322d
+[DEBUG] 2026-10-25 17:42:49.433 [main] BasicTypeRegistry - Adding type registration date -> org.hibernate.type.BasicTypeReference@56ac5c80
+[DEBUG] 2026-10-25 17:42:49.433 [main] BasicTypeRegistry - Adding type registration java.sql.Date -> org.hibernate.type.BasicTypeReference@56ac5c80
+[DEBUG] 2026-10-25 17:42:49.433 [main] BasicTypeRegistry - Adding type registration time -> org.hibernate.type.BasicTypeReference@69e49a81
+[DEBUG] 2026-10-25 17:42:49.433 [main] BasicTypeRegistry - Adding type registration java.sql.Time -> org.hibernate.type.BasicTypeReference@69e49a81
+[DEBUG] 2026-10-25 17:42:49.433 [main] BasicTypeRegistry - Adding type registration timestamp -> org.hibernate.type.BasicTypeReference@1023150a
+[DEBUG] 2026-10-25 17:42:49.433 [main] BasicTypeRegistry - Adding type registration java.sql.Timestamp -> org.hibernate.type.BasicTypeReference@1023150a
+[DEBUG] 2026-10-25 17:42:49.433 [main] BasicTypeRegistry - Adding type registration java.util.Date -> org.hibernate.type.BasicTypeReference@1023150a
+[DEBUG] 2026-10-25 17:42:49.433 [main] BasicTypeRegistry - Adding type registration calendar -> org.hibernate.type.BasicTypeReference@3ece1e79
+[DEBUG] 2026-10-25 17:42:49.433 [main] BasicTypeRegistry - Adding type registration java.util.Calendar -> org.hibernate.type.BasicTypeReference@3ece1e79
+[DEBUG] 2026-10-25 17:42:49.433 [main] BasicTypeRegistry - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.BasicTypeReference@3ece1e79
+[DEBUG] 2026-10-25 17:42:49.433 [main] BasicTypeRegistry - Adding type registration calendar_date -> org.hibernate.type.BasicTypeReference@ab20d7c
+[DEBUG] 2026-10-25 17:42:49.433 [main] BasicTypeRegistry - Adding type registration calendar_time -> org.hibernate.type.BasicTypeReference@474fae39
+[DEBUG] 2026-10-25 17:42:49.433 [main] BasicTypeRegistry - Adding type registration instant -> org.hibernate.type.BasicTypeReference@4f4c789f
+[DEBUG] 2026-10-25 17:42:49.433 [main] BasicTypeRegistry - Adding type registration java.time.Instant -> org.hibernate.type.BasicTypeReference@4f4c789f
+[DEBUG] 2026-10-25 17:42:49.433 [main] BasicTypeRegistry - Adding type registration uuid -> org.hibernate.type.BasicTypeReference@13f9ad9
+[DEBUG] 2026-10-25 17:42:49.433 [main] BasicTypeRegistry - Adding type registration java.util.UUID -> org.hibernate.type.BasicTypeReference@13f9ad9
+[DEBUG] 2026-10-25 17:42:49.433 [main] BasicTypeRegistry - Adding type registration pg-uuid -> org.hibernate.type.BasicTypeReference@13f9ad9
+[DEBUG] 2026-10-25 17:42:49.435 [main] BasicTypeRegistry - Adding type registration uuid-binary -> org.hibernate.type.BasicTypeReference@1b7cae6f
+[DEBUG] 2026-10-25 17:42:49.435 [main] BasicTypeRegistry - Adding type registration uuid-char -> org.hibernate.type.BasicTypeReference@21f8e55f
+[DEBUG] 2026-10-25 17:42:49.435 [main] BasicTypeRegistry - Adding type registration class -> org.hibernate.type.BasicTypeReference@d5ce97f
+[DEBUG] 2026-10-25 17:42:49.435 [main] BasicTypeRegistry - Adding type registration java.lang.Class -> org.hibernate.type.BasicTypeReference@d5ce97f
+[DEBUG] 2026-10-25 17:42:49.435 [main] BasicTypeRegistry - Adding type registration currency -> org.hibernate.type.BasicTypeReference@7048535f
+[DEBUG] 2026-10-25 17:42:49.435 [main] BasicTypeRegistry - Adding type registration Currency -> org.hibernate.type.BasicTypeReference@7048535f
+[DEBUG] 2026-10-25 17:42:49.435 [main] BasicTypeRegistry - Adding type registration java.util.Currency -> org.hibernate.type.BasicTypeReference@7048535f
+[DEBUG] 2026-10-25 17:42:49.435 [main] BasicTypeRegistry - Adding type registration locale -> org.hibernate.type.BasicTypeReference@e3994ef
+[DEBUG] 2026-10-25 17:42:49.435 [main] BasicTypeRegistry - Adding type registration java.util.Locale -> org.hibernate.type.BasicTypeReference@e3994ef
+[DEBUG] 2026-10-25 17:42:49.435 [main] BasicTypeRegistry - Adding type registration serializable -> org.hibernate.type.BasicTypeReference@680d4a6a
+[DEBUG] 2026-10-25 17:42:49.435 [main] BasicTypeRegistry - Adding type registration java.io.Serializable -> org.hibernate.type.BasicTypeReference@680d4a6a
+[DEBUG] 2026-10-25 17:42:49.435 [main] BasicTypeRegistry - Adding type registration timezone -> org.hibernate.type.BasicTypeReference@2f04105
+[DEBUG] 2026-10-25 17:42:49.435 [main] BasicTypeRegistry - Adding type registration java.util.TimeZone -> org.hibernate.type.BasicTypeReference@2f04105
+[DEBUG] 2026-10-25 17:42:49.435 [main] BasicTypeRegistry - Adding type registration ZoneOffset -> org.hibernate.type.BasicTypeReference@309028af
+[DEBUG] 2026-10-25 17:42:49.435 [main] BasicTypeRegistry - Adding type registration java.time.ZoneOffset -> org.hibernate.type.BasicTypeReference@309028af
+[DEBUG] 2026-10-25 17:42:49.435 [main] BasicTypeRegistry - Adding type registration url -> org.hibernate.type.BasicTypeReference@724c5cbe
+[DEBUG] 2026-10-25 17:42:49.435 [main] BasicTypeRegistry - Adding type registration java.net.URL -> org.hibernate.type.BasicTypeReference@724c5cbe
+[DEBUG] 2026-10-25 17:42:49.435 [main] BasicTypeRegistry - Adding type registration vector -> org.hibernate.type.BasicTypeReference@70101687
+[DEBUG] 2026-10-25 17:42:49.435 [main] BasicTypeRegistry - Adding type registration row_version -> org.hibernate.type.BasicTypeReference@70e889e9
+[DEBUG] 2026-10-25 17:42:49.440 [main] BasicTypeRegistry - Adding type registration object -> org.hibernate.type.JavaObjectType@5e8c34a0
+[DEBUG] 2026-10-25 17:42:49.440 [main] BasicTypeRegistry - Adding type registration java.lang.Object -> org.hibernate.type.JavaObjectType@5e8c34a0
+[DEBUG] 2026-10-25 17:42:49.442 [main] BasicTypeRegistry - Adding type registration null -> org.hibernate.type.NullType@3533df16
+[DEBUG] 2026-10-25 17:42:49.442 [main] BasicTypeRegistry - Adding type registration imm_date -> org.hibernate.type.BasicTypeReference@15d0849
+[DEBUG] 2026-10-25 17:42:49.442 [main] BasicTypeRegistry - Adding type registration imm_time -> org.hibernate.type.BasicTypeReference@4038cd3a
+[DEBUG] 2026-10-25 17:42:49.442 [main] BasicTypeRegistry - Adding type registration imm_timestamp -> org.hibernate.type.BasicTypeReference@14ac77b9
+[DEBUG] 2026-10-25 17:42:49.442 [main] BasicTypeRegistry - Adding type registration imm_calendar -> org.hibernate.type.BasicTypeReference@3f4cd155
+[DEBUG] 2026-10-25 17:42:49.442 [main] BasicTypeRegistry - Adding type registration imm_calendar_date -> org.hibernate.type.BasicTypeReference@563a89b5
+[DEBUG] 2026-10-25 17:42:49.442 [main] BasicTypeRegistry - Adding type registration imm_calendar_time -> org.hibernate.type.BasicTypeReference@506dcf55
+[DEBUG] 2026-10-25 17:42:49.442 [main] BasicTypeRegistry - Adding type registration imm_binary -> org.hibernate.type.BasicTypeReference@270b6b5e
+[DEBUG] 2026-10-25 17:42:49.442 [main] BasicTypeRegistry - Adding type registration imm_serializable -> org.hibernate.type.BasicTypeReference@7e94d093
+[INFO ] 2026-10-25 17:42:49.466 [main] c3p0 - HHH010002: C3P0 using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/SpotifyForecast
+[INFO ] 2026-10-25 17:42:49.466 [main] c3p0 - HHH10001001: Connection properties: {password=****, user=root}
+[INFO ] 2026-10-25 17:42:49.466 [main] c3p0 - HHH10001003: Autocommit mode: false
+[INFO ] 2026-10-25 17:42:49.539 [main] c3p0 - HHH10001007: JDBC isolation level: <unknown>
+[WARN ] 2026-10-25 17:43:20.033 [main] JdbcEnvironmentInitiator - HHH000342: Could not obtain connection to query metadata
+java.lang.NullPointerException: null
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:116) ~[hibernate-core-6.4.3.Final.jar:6.4.3.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:276) [hibernate-core-6.4.3.Final.jar:6.4.3.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:107) [hibernate-core-6.4.3.Final.jar:6.4.3.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68) [hibernate-core-6.4.3.Final.jar:6.4.3.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130) [hibernate-core-6.4.3.Final.jar:6.4.3.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) [hibernate-core-6.4.3.Final.jar:6.4.3.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238) [hibernate-core-6.4.3.Final.jar:6.4.3.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) [hibernate-core-6.4.3.Final.jar:6.4.3.Final]
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) [hibernate-core-6.4.3.Final.jar:6.4.3.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:223) [hibernate-core-6.4.3.Final.jar:6.4.3.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:191) [hibernate-core-6.4.3.Final.jar:6.4.3.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:170) [hibernate-core-6.4.3.Final.jar:6.4.3.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.build(MetadataBuildingProcess.java:129) [hibernate-core-6.4.3.Final.jar:6.4.3.Final]
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:449) [hibernate-core-6.4.3.Final.jar:6.4.3.Final]
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:101) [hibernate-core-6.4.3.Final.jar:6.4.3.Final]
+	at edu.matc.persistence.SessionFactoryProvider.createSessionFactory(SessionFactoryProvider.java:32) [classes/:?]
+	at edu.matc.persistence.SessionFactoryProvider.getSessionFactory(SessionFactoryProvider.java:45) [classes/:?]
+	at edu.matc.persistence.UserDao.<init>(UserDao.java:24) [classes/:?]
+	at edu.matc.persistence.UserDaoTest.setUp(UserDaoTest.java:19) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:389) [junit-platform-commons-1.0.0.jar:1.0.0]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:115) [junit-jupiter-engine-5.0.0.jar:5.0.0]
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.invokeMethodInExtensionContext(ClassTestDescriptor.java:289) [junit-jupiter-engine-5.0.0.jar:5.0.0]
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.lambda$synthesizeBeforeEachMethodAdapter$11(ClassTestDescriptor.java:277) [junit-jupiter-engine-5.0.0.jar:5.0.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$null$2(TestMethodTestDescriptor.java:132) [junit-jupiter-engine-5.0.0.jar:5.0.0]
+	at org.junit.jupiter.engine.execution.ThrowableCollector.execute(ThrowableCollector.java:40) [junit-jupiter-engine-5.0.0.jar:5.0.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeBeforeMethodsOrCallbacksUntilExceptionOccurs(TestMethodTestDescriptor.java:152) [junit-jupiter-engine-5.0.0.jar:5.0.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeBeforeEachMethods(TestMethodTestDescriptor.java:131) [junit-jupiter-engine-5.0.0.jar:5.0.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:106) [junit-jupiter-engine-5.0.0.jar:5.0.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:57) [junit-jupiter-engine-5.0.0.jar:5.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$execute$3(HierarchicalTestExecutor.java:83) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.SingleTestExecutor.executeSafely(SingleTestExecutor.java:66) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:77) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$null$2(HierarchicalTestExecutor.java:92) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) [?:?]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177) [?:?]
+	at java.util.Iterator.forEachRemaining(Iterator.java:133) [?:?]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801) [?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484) [?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) [?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) [?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) [?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) [?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497) [?:?]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$execute$3(HierarchicalTestExecutor.java:92) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.SingleTestExecutor.executeSafely(SingleTestExecutor.java:66) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:77) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$null$2(HierarchicalTestExecutor.java:92) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) [?:?]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177) [?:?]
+	at java.util.Iterator.forEachRemaining(Iterator.java:133) [?:?]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801) [?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484) [?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) [?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) [?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) [?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) [?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497) [?:?]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$execute$3(HierarchicalTestExecutor.java:92) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.SingleTestExecutor.executeSafely(SingleTestExecutor.java:66) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:77) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:51) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:43) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:170) [junit-platform-launcher-1.0.0.jar:1.0.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:154) [junit-platform-launcher-1.0.0.jar:1.0.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:90) [junit-platform-launcher-1.0.0.jar:1.0.0]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:66) [junit5-rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11) [idea_rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:237) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58) [junit-rt.jar:?]
+[WARN ] 2026-10-25 17:43:20.048 [main] deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[DEBUG] 2026-10-25 17:43:20.049 [main] dialect - HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0
+[DEBUG] 2026-10-25 17:43:20.055 [main] IdentifierHelperBuilder - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [MIXED]; that will likely lead to problems in schema update and validation if using quoted identifiers
+[DEBUG] 2026-10-25 17:43:20.059 [main] lob - HHH10010002: Disabling contextual LOB creation as connection was null
+[DEBUG] 2026-10-25 17:43:20.066 [main] DdlTypeRegistry - addDescriptor(12, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@48d293ee) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@146dcfe6)
+[DEBUG] 2026-10-25 17:43:20.066 [main] DdlTypeRegistry - addDescriptor(-9, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@22587507) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@5c77ba8f)
+[DEBUG] 2026-10-25 17:43:20.066 [main] DdlTypeRegistry - addDescriptor(-3, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@660f0c) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@7a0ef219)
+[DEBUG] 2026-10-25 17:43:20.067 [main] DdlTypeRegistry - addDescriptor(4003, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@1b1f5012) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@7add323c)
+[DEBUG] 2026-10-25 17:43:20.067 [main] DdlTypeRegistry - addDescriptor(4001, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@4a734c04) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@4760f169)
+[DEBUG] 2026-10-25 17:43:20.067 [main] DdlTypeRegistry - addDescriptor(4002, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@261ea657) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@35c12c7a)
+[DEBUG] 2026-10-25 17:43:20.067 [main] DdlTypeRegistry - addDescriptor(2004, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@658255aa) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@25290bca)
+[DEBUG] 2026-10-25 17:43:20.067 [main] DdlTypeRegistry - addDescriptor(2005, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@76563d26) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@4ac86d6a)
+[DEBUG] 2026-10-25 17:43:20.067 [main] DdlTypeRegistry - addDescriptor(2011, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@3d904e9c) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@508a65bf)
+[DEBUG] 2026-10-25 17:43:20.068 [main] JdbcTypeRegistry - addDescriptor(NCharTypeDescriptor) replaced previous registration(CharTypeDescriptor)
+[DEBUG] 2026-10-25 17:43:20.068 [main] JdbcTypeRegistry - addDescriptor(NVarcharTypeDescriptor) replaced previous registration(VarcharTypeDescriptor)
+[DEBUG] 2026-10-25 17:43:20.068 [main] JdbcTypeRegistry - addDescriptor(LongNVarcharTypeDescriptor) replaced previous registration(LongVarcharTypeDescriptor)
+[DEBUG] 2026-10-25 17:43:20.070 [main] JdbcTypeRegistry - addDescriptor(NClobTypeDescriptor(DEFAULT)) replaced previous registration(ClobTypeDescriptor(DEFAULT))
+[DEBUG] 2026-10-25 17:43:20.070 [main] JdbcTypeRegistry - addDescriptor(2005, ClobTypeDescriptor(STREAM_BINDING)) replaced previous registration(ClobTypeDescriptor(DEFAULT))
+[DEBUG] 2026-10-25 17:43:20.074 [main] BasicTypeRegistry - Adding type registration null -> org.hibernate.type.NullType@5df778c3
+[DEBUG] 2026-10-25 17:43:20.074 [main] BasicTypeRegistry - Type registration key [null] overrode previous entry : `org.hibernate.type.NullType@3533df16`
+[DEBUG] 2026-10-25 17:43:20.086 [main] BasicTypeRegistry - Adding type registration org.hibernate.type.DurationType -> basicType@1(java.time.Duration,2)
+[DEBUG] 2026-10-25 17:43:20.086 [main] BasicTypeRegistry - Adding type registration Duration -> basicType@1(java.time.Duration,2)
+[DEBUG] 2026-10-25 17:43:20.086 [main] BasicTypeRegistry - Adding type registration java.time.Duration -> basicType@1(java.time.Duration,2)
+[DEBUG] 2026-10-25 17:43:20.090 [main] BasicTypeRegistry - Adding type registration org.hibernate.type.OffsetDateTimeType -> basicType@2(java.time.OffsetDateTime,3003)
+[DEBUG] 2026-10-25 17:43:20.090 [main] BasicTypeRegistry - Adding type registration OffsetDateTime -> basicType@2(java.time.OffsetDateTime,3003)
+[DEBUG] 2026-10-25 17:43:20.090 [main] BasicTypeRegistry - Adding type registration java.time.OffsetDateTime -> basicType@2(java.time.OffsetDateTime,3003)
+[DEBUG] 2026-10-25 17:43:20.090 [main] BasicTypeRegistry - Adding type registration org.hibernate.type.ZonedDateTimeType -> basicType@3(java.time.ZonedDateTime,3003)
+[DEBUG] 2026-10-25 17:43:20.090 [main] BasicTypeRegistry - Adding type registration ZonedDateTime -> basicType@3(java.time.ZonedDateTime,3003)
+[DEBUG] 2026-10-25 17:43:20.090 [main] BasicTypeRegistry - Adding type registration java.time.ZonedDateTime -> basicType@3(java.time.ZonedDateTime,3003)
+[DEBUG] 2026-10-25 17:43:20.091 [main] BasicTypeRegistry - Adding type registration org.hibernate.type.OffsetTimeType -> basicType@4(java.time.OffsetTime,3007)
+[DEBUG] 2026-10-25 17:43:20.091 [main] BasicTypeRegistry - Adding type registration OffsetTime -> basicType@4(java.time.OffsetTime,3007)
+[DEBUG] 2026-10-25 17:43:20.091 [main] BasicTypeRegistry - Adding type registration java.time.OffsetTime -> basicType@4(java.time.OffsetTime,3007)
+[DEBUG] 2026-10-25 17:43:20.093 [main] TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@6c3659be] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@522bf64e]
+[DEBUG] 2026-10-25 17:43:20.131 [main] Namespace - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+[DEBUG] 2026-10-25 17:43:20.155 [main] EntityBinder - Binding entity from annotated class: edu.matc.entity.User
+[DEBUG] 2026-10-25 17:43:20.164 [main] EntityBinder - Import with entity name User
+[DEBUG] 2026-10-25 17:43:20.171 [main] EntityBinder - Bind entity edu.matc.entity.User on table user
+[DEBUG] 2026-10-25 17:43:20.180 [main] AnnotatedColumn - Binding column: AnnotatedDiscriminatorColumn(column='DTYPE')
+[DEBUG] 2026-10-25 17:43:20.198 [main] AnnotatedColumn - Binding column: AnnotatedColumn()
+[DEBUG] 2026-10-25 17:43:20.199 [main] ClassLoaderAccessImpl - Not known whether passed class name [edu.matc.entity.User] is safe
+[DEBUG] 2026-10-25 17:43:20.199 [main] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : edu.matc.entity.User
+[DEBUG] 2026-10-25 17:43:20.201 [main] PropertyBinder - MetadataSourceProcessor property id with lazy=false
+[DEBUG] 2026-10-25 17:43:20.204 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.matc.entity.User:id]
+[DEBUG] 2026-10-25 17:43:20.208 [main] BasicValueBinder - building BasicValue for id
+[DEBUG] 2026-10-25 17:43:20.210 [main] BasicValue - Skipping column re-registration: user.id
+[DEBUG] 2026-10-25 17:43:20.211 [main] PropertyBinder - Building property id
+[DEBUG] 2026-10-25 17:43:20.213 [main] BinderHelper - #makeIdGenerator(BasicValue([Column(id)]), id, identity, native, ...)
+[DEBUG] 2026-10-25 17:43:20.216 [main] AnnotatedColumn - Binding column: AnnotatedColumn()
+[DEBUG] 2026-10-25 17:43:20.216 [main] PropertyBinder - MetadataSourceProcessor property email with lazy=false
+[DEBUG] 2026-10-25 17:43:20.216 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.matc.entity.User:email]
+[DEBUG] 2026-10-25 17:43:20.216 [main] BasicValueBinder - building BasicValue for email
+[DEBUG] 2026-10-25 17:43:20.216 [main] BasicValue - Skipping column re-registration: user.email
+[DEBUG] 2026-10-25 17:43:20.216 [main] PropertyBinder - Building property email
+[DEBUG] 2026-10-25 17:43:20.218 [main] AnnotatedColumn - Binding column: AnnotatedJoinColumn()
+[DEBUG] 2026-10-25 17:43:20.218 [main] AnnotatedColumn - Binding column: AnnotatedColumn()
+[DEBUG] 2026-10-25 17:43:20.228 [main] AnnotatedColumn - Binding column: IndexColumn(column='playlists_ORDER')
+[DEBUG] 2026-10-25 17:43:20.231 [main] AnnotatedColumn - Binding column: AnnotatedColumn()
+[DEBUG] 2026-10-25 17:43:20.232 [main] AnnotatedColumn - Binding column: AnnotatedColumn(column='playlists_KEY')
+[DEBUG] 2026-10-25 17:43:20.232 [main] AnnotatedColumn - Binding column: AnnotatedJoinColumn(column='playlists_KEY')
+[DEBUG] 2026-10-25 17:43:20.234 [main] AnnotatedColumn - Binding column: AnnotatedJoinColumn()
+[DEBUG] 2026-10-25 17:43:20.234 [main] AnnotatedColumn - Binding column: AnnotatedJoinColumn()
+[DEBUG] 2026-10-25 17:43:20.237 [main] CollectionBinder - Collection role: edu.matc.entity.User.playlists
+[DEBUG] 2026-10-25 17:43:20.239 [main] PropertyBinder - Building property playlists
+[DEBUG] 2026-10-25 17:43:20.239 [main] AnnotatedColumn - Binding column: AnnotatedColumn()
+[DEBUG] 2026-10-25 17:43:20.239 [main] PropertyBinder - MetadataSourceProcessor property username with lazy=false
+[DEBUG] 2026-10-25 17:43:20.239 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.matc.entity.User:username]
+[DEBUG] 2026-10-25 17:43:20.239 [main] BasicValueBinder - building BasicValue for username
+[DEBUG] 2026-10-25 17:43:20.239 [main] BasicValue - Skipping column re-registration: user.username
+[DEBUG] 2026-10-25 17:43:20.239 [main] PropertyBinder - Building property username
+[DEBUG] 2026-10-25 17:43:20.239 [main] AnnotatedColumn - Binding column: AnnotatedJoinColumn()
+[DEBUG] 2026-10-25 17:43:20.239 [main] AnnotatedColumn - Binding column: AnnotatedColumn()
+[DEBUG] 2026-10-25 17:43:20.240 [main] AnnotatedColumn - Binding column: IndexColumn(column='weatherReports_ORDER')
+[DEBUG] 2026-10-25 17:43:20.240 [main] AnnotatedColumn - Binding column: AnnotatedColumn()
+[DEBUG] 2026-10-25 17:43:20.240 [main] AnnotatedColumn - Binding column: AnnotatedColumn(column='weatherReports_KEY')
+[DEBUG] 2026-10-25 17:43:20.240 [main] AnnotatedColumn - Binding column: AnnotatedJoinColumn(column='weatherReports_KEY')
+[DEBUG] 2026-10-25 17:43:20.240 [main] AnnotatedColumn - Binding column: AnnotatedJoinColumn()
+[DEBUG] 2026-10-25 17:43:20.240 [main] AnnotatedColumn - Binding column: AnnotatedJoinColumn()
+[DEBUG] 2026-10-25 17:43:20.240 [main] CollectionBinder - Collection role: edu.matc.entity.User.weatherReports
+[DEBUG] 2026-10-25 17:43:20.240 [main] PropertyBinder - Building property weatherReports
+[DEBUG] 2026-10-25 17:43:20.241 [main] ClassLoaderServiceImpl - HHH000194: Package not found or wo package-info.java: edu.matc.entity
+[DEBUG] 2026-10-25 17:43:20.246 [main] EntityBinder - Binding entity from annotated class: edu.matc.entity.Playlist
+[DEBUG] 2026-10-25 17:43:20.246 [main] EntityBinder - Import with entity name Playlist
+[DEBUG] 2026-10-25 17:43:20.246 [main] EntityBinder - Bind entity edu.matc.entity.Playlist on table playlist
+[DEBUG] 2026-10-25 17:43:20.246 [main] AnnotatedColumn - Binding column: AnnotatedDiscriminatorColumn(column='DTYPE')
+[DEBUG] 2026-10-25 17:43:20.248 [main] AnnotatedColumn - Binding column: AnnotatedColumn()
+[DEBUG] 2026-10-25 17:43:20.248 [main] ClassLoaderAccessImpl - Not known whether passed class name [edu.matc.entity.Playlist] is safe
+[DEBUG] 2026-10-25 17:43:20.248 [main] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : edu.matc.entity.Playlist
+[DEBUG] 2026-10-25 17:43:20.248 [main] PropertyBinder - MetadataSourceProcessor property id with lazy=false
+[DEBUG] 2026-10-25 17:43:20.248 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.matc.entity.Playlist:id]
+[DEBUG] 2026-10-25 17:43:20.248 [main] BasicValueBinder - building BasicValue for id
+[DEBUG] 2026-10-25 17:43:20.248 [main] BasicValue - Skipping column re-registration: playlist.id
+[DEBUG] 2026-10-25 17:43:20.248 [main] PropertyBinder - Building property id
+[DEBUG] 2026-10-25 17:43:20.248 [main] BinderHelper - #makeIdGenerator(BasicValue([Column(id)]), id, identity, native, ...)
+[DEBUG] 2026-10-25 17:43:20.249 [main] AnnotatedColumn - Binding column: AnnotatedColumn(column='url')
+[DEBUG] 2026-10-25 17:43:20.249 [main] PropertyBinder - MetadataSourceProcessor property playlistLink with lazy=false
+[DEBUG] 2026-10-25 17:43:20.249 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.matc.entity.Playlist:playlistLink]
+[DEBUG] 2026-10-25 17:43:20.249 [main] BasicValueBinder - building BasicValue for playlistLink
+[DEBUG] 2026-10-25 17:43:20.249 [main] BasicValue - Skipping column re-registration: playlist.url
+[DEBUG] 2026-10-25 17:43:20.249 [main] PropertyBinder - Building property playlistLink
+[DEBUG] 2026-10-25 17:43:20.249 [main] AnnotatedColumn - Binding column: AnnotatedColumn(column='name')
+[DEBUG] 2026-10-25 17:43:20.249 [main] PropertyBinder - MetadataSourceProcessor property playlistName with lazy=false
+[DEBUG] 2026-10-25 17:43:20.249 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.matc.entity.Playlist:playlistName]
+[DEBUG] 2026-10-25 17:43:20.249 [main] BasicValueBinder - building BasicValue for playlistName
+[DEBUG] 2026-10-25 17:43:20.249 [main] BasicValue - Skipping column re-registration: playlist.name
+[DEBUG] 2026-10-25 17:43:20.249 [main] PropertyBinder - Building property playlistName
+[DEBUG] 2026-10-25 17:43:20.250 [main] ClassLoaderServiceImpl - HHH000194: Package not found or wo package-info.java: edu.matc.entity
+[DEBUG] 2026-10-25 17:43:20.250 [main] EntityBinder - Binding entity from annotated class: edu.matc.entity.WeatherReport
+[DEBUG] 2026-10-25 17:43:20.251 [main] EntityBinder - Import with entity name WeatherReport
+[DEBUG] 2026-10-25 17:43:20.251 [main] EntityBinder - Bind entity edu.matc.entity.WeatherReport on table weather
+[DEBUG] 2026-10-25 17:43:20.251 [main] AnnotatedColumn - Binding column: AnnotatedDiscriminatorColumn(column='DTYPE')
+[DEBUG] 2026-10-25 17:43:20.251 [main] AnnotatedColumn - Binding column: AnnotatedColumn()
+[DEBUG] 2026-10-25 17:43:20.251 [main] ClassLoaderAccessImpl - Not known whether passed class name [edu.matc.entity.WeatherReport] is safe
+[DEBUG] 2026-10-25 17:43:20.251 [main] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : edu.matc.entity.WeatherReport
+[DEBUG] 2026-10-25 17:43:20.251 [main] PropertyBinder - MetadataSourceProcessor property id with lazy=false
+[DEBUG] 2026-10-25 17:43:20.251 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.matc.entity.WeatherReport:id]
+[DEBUG] 2026-10-25 17:43:20.251 [main] BasicValueBinder - building BasicValue for id
+[DEBUG] 2026-10-25 17:43:20.252 [main] BasicValue - Skipping column re-registration: weather.id
+[DEBUG] 2026-10-25 17:43:20.252 [main] PropertyBinder - Building property id
+[DEBUG] 2026-10-25 17:43:20.252 [main] BinderHelper - #makeIdGenerator(BasicValue([Column(id)]), id, identity, native, ...)
+[DEBUG] 2026-10-25 17:43:20.252 [main] AnnotatedColumn - Binding column: AnnotatedColumn()
+[DEBUG] 2026-10-25 17:43:20.252 [main] PropertyBinder - MetadataSourceProcessor property latitude with lazy=false
+[DEBUG] 2026-10-25 17:43:20.252 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.matc.entity.WeatherReport:latitude]
+[DEBUG] 2026-10-25 17:43:20.252 [main] BasicValueBinder - building BasicValue for latitude
+[DEBUG] 2026-10-25 17:43:20.252 [main] BasicValue - Skipping column re-registration: weather.latitude
+[DEBUG] 2026-10-25 17:43:20.252 [main] PropertyBinder - Building property latitude
+[DEBUG] 2026-10-25 17:43:20.252 [main] AnnotatedColumn - Binding column: AnnotatedColumn(column='location_name')
+[DEBUG] 2026-10-25 17:43:20.252 [main] PropertyBinder - MetadataSourceProcessor property locationName with lazy=false
+[DEBUG] 2026-10-25 17:43:20.252 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.matc.entity.WeatherReport:locationName]
+[DEBUG] 2026-10-25 17:43:20.252 [main] BasicValueBinder - building BasicValue for locationName
+[DEBUG] 2026-10-25 17:43:20.252 [main] BasicValue - Skipping column re-registration: weather.location_name
+[DEBUG] 2026-10-25 17:43:20.252 [main] PropertyBinder - Building property locationName
+[DEBUG] 2026-10-25 17:43:20.252 [main] AnnotatedColumn - Binding column: AnnotatedColumn()
+[DEBUG] 2026-10-25 17:43:20.252 [main] PropertyBinder - MetadataSourceProcessor property longitude with lazy=false
+[DEBUG] 2026-10-25 17:43:20.253 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.matc.entity.WeatherReport:longitude]
+[DEBUG] 2026-10-25 17:43:20.253 [main] BasicValueBinder - building BasicValue for longitude
+[DEBUG] 2026-10-25 17:43:20.253 [main] BasicValue - Skipping column re-registration: weather.longitude
+[DEBUG] 2026-10-25 17:43:20.253 [main] PropertyBinder - Building property longitude
+[DEBUG] 2026-10-25 17:43:20.254 [main] ClassLoaderServiceImpl - HHH000194: Package not found or wo package-info.java: edu.matc.entity
+[DEBUG] 2026-10-25 17:43:20.254 [main] BasicValueBinder - Starting `BasicValueBinder#fillSimpleValue` for id
+[DEBUG] 2026-10-25 17:43:20.256 [main] BasicValueBinder - Starting `BasicValueBinder#fillSimpleValue` for email
+[DEBUG] 2026-10-25 17:43:20.256 [main] BasicValueBinder - Starting `BasicValueBinder#fillSimpleValue` for username
+[DEBUG] 2026-10-25 17:43:20.256 [main] BasicValueBinder - Starting `BasicValueBinder#fillSimpleValue` for id
+[DEBUG] 2026-10-25 17:43:20.256 [main] BasicValueBinder - Starting `BasicValueBinder#fillSimpleValue` for playlistLink
+[DEBUG] 2026-10-25 17:43:20.256 [main] BasicValueBinder - Starting `BasicValueBinder#fillSimpleValue` for playlistName
+[DEBUG] 2026-10-25 17:43:20.256 [main] BasicValueBinder - Starting `BasicValueBinder#fillSimpleValue` for id
+[DEBUG] 2026-10-25 17:43:20.256 [main] BasicValueBinder - Starting `BasicValueBinder#fillSimpleValue` for latitude
+[DEBUG] 2026-10-25 17:43:20.256 [main] BasicValueBinder - Starting `BasicValueBinder#fillSimpleValue` for locationName
+[DEBUG] 2026-10-25 17:43:20.256 [main] BasicValueBinder - Starting `BasicValueBinder#fillSimpleValue` for longitude
+[DEBUG] 2026-10-25 17:43:20.258 [main] PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [user]
+[DEBUG] 2026-10-25 17:43:20.258 [main] PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [playlist]
+[DEBUG] 2026-10-25 17:43:20.258 [main] PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [weather]
+[DEBUG] 2026-10-25 17:43:20.258 [main] CollectionSecondPass - Second pass for collection: edu.matc.entity.User.playlists

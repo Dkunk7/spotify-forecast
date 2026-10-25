@@ -20,6 +20,9 @@ public class Playlist {
     @Column(name = "url")
     private String playlistLink;
 
+    @ManyToOne
+    private User user;
+
 
     /**
      * Gets id.
