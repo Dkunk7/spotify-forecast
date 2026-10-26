@@ -12,6 +12,9 @@ import org.hibernate.query.criteria.HibernateCriteriaBuilder;
 
 import java.util.List;
 
+/**
+ * The WeatherReport Data Access Object
+ */
 public class WeatherReportDao {
 
 

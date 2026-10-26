@@ -13,7 +13,7 @@ import org.hibernate.query.criteria.HibernateCriteriaBuilder;
 import java.util.List;
 
 /**
- * The type User dao.
+ * The User Data Access Object
  */
 public class UserDao {
 

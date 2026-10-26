@@ -13,7 +13,7 @@ import org.hibernate.query.criteria.HibernateCriteriaBuilder;
 import java.util.List;
 
 /**
- * Represents a playlist in the Spotify Forecast application
+ * The Playlist Data Access Object
  */
 public class PlaylistDao {
 
