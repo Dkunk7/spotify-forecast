@@ -17,7 +17,7 @@ public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY, generator = "native")
     @GenericGenerator(name = "native")
-    private Integer id;
+    private int id;
 
     private String username;
     private String email;
@@ -34,7 +34,7 @@ public class User {
      *
      * @return the id
      */
-    public Integer getId() {
+    public int getId() {
         return id;
     }
 
@@ -43,7 +43,7 @@ public class User {
      *
      * @param id the id
      */
-    public void setId(Integer id) {
+    public void setId(int id) {
         this.id = id;
     }
 

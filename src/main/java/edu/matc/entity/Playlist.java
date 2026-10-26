@@ -13,7 +13,7 @@ public class Playlist {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY, generator = "native")
     @GenericGenerator(name = "native")
-    private Integer id;
+    private int id;
 
     @Column(name = "name")
     private String playlistName;
@@ -29,7 +29,7 @@ public class Playlist {
      *
      * @return the id
      */
-    public Integer getId() {
+    public int getId() {
         return id;
     }
 
@@ -38,7 +38,7 @@ public class Playlist {
      *
      * @param id the id
      */
-    public void setId(Integer id) {
+    public void setId(int id) {
         this.id = id;
     }
 

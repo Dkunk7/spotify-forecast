@@ -14,7 +14,7 @@ public class WeatherReport {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY, generator = "native")
     @GenericGenerator(name = "native")
-    private Integer id;
+    private int id;
 
     @Column(name = "location_name")
     private String locationName;
@@ -34,19 +34,41 @@ public class WeatherReport {
      * Instantiates a new Weather report.
      *
      * @param locationName the location name
+     * @param latitude     the latitude
+     * @param longitude    the longitude
      */
-    public WeatherReport(String locationName) {
+    public WeatherReport(String locationName,  String latitude, String longitude,  User user) {
         this.locationName = locationName;
-        // Use location name to search for coords
-        // Use coords to get weather
+        this.latitude = latitude;
+        this.longitude = longitude;
+        this.user = user;
     }
+
+    /**
+     * Gets user.
+     *
+     * @return the user
+     */
+    public User getUser() {
+        return user;
+    }
+
+    /**
+     * Sets user.
+     *
+     * @param user the user
+     */
+    public void setUser(User user) {
+        this.user = user;
+    }
+
 
     /**
      * Gets id.
      *
      * @return the id
      */
-    public Integer getId() {
+    public int getId() {
         return id;
     }
 
@@ -55,7 +77,7 @@ public class WeatherReport {
      *
      * @param id the id
      */
-    public void setId(Integer id) {
+    public void setId(int id) {
         this.id = id;
     }
 
