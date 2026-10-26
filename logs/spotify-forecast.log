@@ -176,3 +176,27 @@ java.sql.SQLSyntaxErrorException: Unknown database 'spotifyforecast'
 [INFO ] 2026-10-26 14:56:11.186 [main] WeatherReportDao - weatherReports: [edu.matc.entity.WeatherReport@bde7d6f, edu.matc.entity.WeatherReport@8ff0a6f6, edu.matc.entity.WeatherReport@e0638e25]
 [DEBUG] 2026-10-26 14:56:11.349 [main] WeatherReportDaoTest - ID from weather insert: 5
 [DEBUG] 2026-10-26 14:56:11.353 [main] WeatherReportDaoTest - Reedsburg
+[INFO ] 2026-10-26 15:22:41.036 [main] PlaylistDao - playlists: [edu.matc.entity.Playlist@54caeadc, edu.matc.entity.Playlist@73316a0a, edu.matc.entity.Playlist@5f01fb5c]
+[INFO ] 2026-10-26 15:22:41.338 [main] UserDao - users: [edu.matc.entity.User@c19dbe3a, edu.matc.entity.User@80873b5b, edu.matc.entity.User@7c52399]
+[INFO ] 2026-10-26 15:22:41.904 [main] WeatherReportDao - weatherReports: [edu.matc.entity.WeatherReport@bde7d6f, edu.matc.entity.WeatherReport@8ff0a6f6, edu.matc.entity.WeatherReport@e0638e25]
+[DEBUG] 2026-10-26 15:22:42.042 [main] WeatherReportDaoTest - ID from weather insert: 5
+[DEBUG] 2026-10-26 15:22:42.046 [main] WeatherReportDaoTest - Reedsburg
+[INFO ] 2026-10-26 15:23:04.387 [http-nio-8080-exec-4] UserDao - users: [edu.matc.entity.User@af4879f8, edu.matc.entity.User@b278ec11, edu.matc.entity.User@dc5deffe]
+[INFO ] 2026-10-26 15:23:04.414 [http-nio-8080-exec-4] WeatherReportDao - weatherReports: [edu.matc.entity.WeatherReport@477f4258, edu.matc.entity.WeatherReport@14a19323, edu.matc.entity.WeatherReport@51125b44]
+[INFO ] 2026-10-26 15:29:50.026 [main] PlaylistDao - playlists: [edu.matc.entity.Playlist@1c79d093, edu.matc.entity.Playlist@7509226c, edu.matc.entity.Playlist@73316a0a]
+[INFO ] 2026-10-26 15:29:50.355 [main] UserDao - users: [edu.matc.entity.User@62b53d3f, edu.matc.entity.User@5e082ba2, edu.matc.entity.User@fec3d1c3]
+[INFO ] 2026-10-26 15:29:50.926 [main] WeatherReportDao - weatherReports: [edu.matc.entity.WeatherReport@835720f8, edu.matc.entity.WeatherReport@2d7eab2c, edu.matc.entity.WeatherReport@ec6f3253]
+[DEBUG] 2026-10-26 15:29:51.062 [main] WeatherReportDaoTest - ID from weather insert: 5
+[DEBUG] 2026-10-26 15:29:51.065 [main] WeatherReportDaoTest - Reedsburg
+[INFO ] 2026-10-26 15:30:58.378 [main] PlaylistDao - playlists: [edu.matc.entity.Playlist@1c79d093, edu.matc.entity.Playlist@7509226c, edu.matc.entity.Playlist@73316a0a]
+[INFO ] 2026-10-26 15:30:58.674 [main] UserDao - users: [edu.matc.entity.User@62b53d3f, edu.matc.entity.User@5e082ba2, edu.matc.entity.User@fec3d1c3]
+[INFO ] 2026-10-26 15:30:59.262 [main] WeatherReportDao - weatherReports: [edu.matc.entity.WeatherReport@bde7d6f, edu.matc.entity.WeatherReport@8ff0a6f6, edu.matc.entity.WeatherReport@e0638e25]
+[DEBUG] 2026-10-26 15:30:59.407 [main] WeatherReportDaoTest - ID from weather insert: 5
+[DEBUG] 2026-10-26 15:30:59.411 [main] WeatherReportDaoTest - Reedsburg
+[INFO ] 2026-10-26 15:32:34.305 [main] PlaylistDao - playlists: [edu.matc.entity.Playlist@1c79d093, edu.matc.entity.Playlist@7509226c, edu.matc.entity.Playlist@73316a0a]
+[INFO ] 2026-10-26 15:32:34.608 [main] UserDao - users: [edu.matc.entity.User@62b53d3f, edu.matc.entity.User@5e082ba2, edu.matc.entity.User@fec3d1c3]
+[INFO ] 2026-10-26 15:32:35.203 [main] WeatherReportDao - weatherReports: [edu.matc.entity.WeatherReport@bde7d6f, edu.matc.entity.WeatherReport@8ff0a6f6, edu.matc.entity.WeatherReport@e0638e25]
+[DEBUG] 2026-10-26 15:32:35.346 [main] WeatherReportDaoTest - ID from weather insert: 5
+[DEBUG] 2026-10-26 15:32:35.349 [main] WeatherReportDaoTest - Reedsburg
+[INFO ] 2026-10-26 15:32:55.427 [http-nio-8080-exec-4] UserDao - users: [edu.matc.entity.User@fad14473, edu.matc.entity.User@f288169c, edu.matc.entity.User@bfe87462]
+[INFO ] 2026-10-26 15:32:55.452 [http-nio-8080-exec-4] WeatherReportDao - weatherReports: [edu.matc.entity.WeatherReport@287b3a6f, edu.matc.entity.WeatherReport@8c7b9add, edu.matc.entity.WeatherReport@ad48837b]
