@@ -24,7 +24,7 @@ public class WeatherReport {
     private String latitude;
     private String longitude;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.EAGER)
     private User user;
 
     /**

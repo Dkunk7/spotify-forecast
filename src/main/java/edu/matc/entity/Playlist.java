@@ -20,7 +20,7 @@ public class Playlist {
     @Column(name = "url")
     private String playlistLink;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.EAGER)
     private User user;
 
 

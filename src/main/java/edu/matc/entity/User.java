@@ -29,6 +29,26 @@ public class User {
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL,  orphanRemoval = true, fetch = FetchType.EAGER)
     private List<WeatherReport> weatherReports = new ArrayList<>();
+
+    /**
+     * Instantiates a new User.
+     */
+    public User() {
+
+    }
+
+    /**
+     * Instantiates a new User.
+     *
+     * @param username the username
+     * @param email    the email
+     */
+    public User(String username, String email) {
+        this.username = username;
+        this.email = email;
+    }
+
+
     /**
      * Gets id.
      *
@@ -120,21 +140,41 @@ public class User {
     }
 
     /**
-     * Instantiates a new User.
+     * Gets weather reports.
+     *
+     * @return the weather reports
      */
-    public User() {
-
+    public List<WeatherReport> getWeatherReports() {
+        return weatherReports;
     }
 
     /**
-     * Instantiates a new User.
+     * Sets weather reports.
      *
-     * @param username the username
-     * @param email    the email
+     * @param weatherReports the weather reports
      */
-    public User(String username, String email) {
-        this.username = username;
-        this.email = email;
+    public void setWeatherReports(List<WeatherReport> weatherReports) {
+        this.weatherReports = weatherReports;
+    }
+
+    /**
+     * Add weather report.
+     *
+     * @param weatherReport the weather report
+     */
+    public void addWeatherReport(WeatherReport weatherReport) {
+        weatherReports.add(weatherReport);
+        weatherReport.setUser(this);
+    }
+
+    /**
+     * Remove weather report.
+     *
+     * @param weatherReport the weather report
+     */
+    public void removeWeatherReport(WeatherReport weatherReport) {
+        weatherReports.remove(weatherReport);
+        weatherReport.setUser(null);
     }
 
 }
