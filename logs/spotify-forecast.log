@@ -170,3 +170,4 @@ java.sql.SQLSyntaxErrorException: Unknown database 'spotifyforecast'
 [DEBUG] 2026-10-25 20:05:10.741 [main] WeatherReportDaoTest - ID from weather insert: 5
 [DEBUG] 2026-10-25 20:05:10.748 [main] WeatherReportDaoTest - Reedsburg
 [INFO ] 2026-10-25 20:08:39.859 [main] WeatherReportDao - weatherReports: [edu.matc.entity.WeatherReport@c25d519, edu.matc.entity.WeatherReport@ebdaf153, edu.matc.entity.WeatherReport@adacf518]
+[INFO ] 2026-10-25 20:30:57.450 [main] PlaylistDao - playlists: [edu.matc.entity.Playlist@283bb8b7, edu.matc.entity.Playlist@10cb050, edu.matc.entity.Playlist@5627b8eb]
