@@ -142,8 +142,8 @@ public class WeatherReport {
     @Override
     public boolean equals(Object o) {
         if (o == null || getClass() != o.getClass()) return false;
-        WeatherReport that = (WeatherReport) o;
-        return id == that.id && Objects.equals(locationName, that.locationName) && Objects.equals(latitude, that.latitude) && Objects.equals(longitude, that.longitude) && Objects.equals(user, that.user);
+        WeatherReport weather = (WeatherReport) o;
+        return id == weather.id && Objects.equals(locationName, weather.locationName) && Objects.equals(latitude, weather.latitude) && Objects.equals(longitude, weather.longitude) && Objects.equals(user, weather.user);
     }
 
     @Override

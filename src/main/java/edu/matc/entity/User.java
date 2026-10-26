@@ -5,6 +5,7 @@ import org.hibernate.annotations.GenericGenerator;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 /**
  * Represents a user in the Spotify Forecast application. It stores a user's details, including username,
@@ -23,11 +24,11 @@ public class User {
     private String email;
 
     // Check that "user" is correct here
-    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL,  orphanRemoval = true, fetch = FetchType.EAGER)
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
     // Playlist list only needs to be a list of links, I think
     private List<Playlist> playlists = new ArrayList<>();
 
-    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL,  orphanRemoval = true, fetch = FetchType.EAGER)
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
     private List<WeatherReport> weatherReports = new ArrayList<>();
 
     /**
@@ -177,4 +178,17 @@ public class User {
         weatherReport.setUser(null);
     }
 
+
+    @Override
+    public boolean equals(Object o) {
+        if (o == null || getClass() != o.getClass()) return false;
+        User user = (User) o;
+        return id == user.id && Objects.equals(username, user.username) && Objects.equals(email, user.email) && Objects.equals(playlists, user.playlists) && Objects.equals(weatherReports, user.weatherReports);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, username, email, playlists, weatherReports);
+    }
 }
+
