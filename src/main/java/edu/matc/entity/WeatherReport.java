@@ -3,6 +3,8 @@ package edu.matc.entity;
 import jakarta.persistence.*;
 import org.hibernate.annotations.GenericGenerator;
 
+import java.util.Objects;
+
 /**
  * Represents a weather report in the Spotify Forecast application. It uses an entered location name and matches it to
  * latitude and longitude coordinates to search for the actual weather report.
@@ -28,7 +30,8 @@ public class WeatherReport {
     /**
      * Instantiates a new Weather report.
      */
-    public WeatherReport() {}
+    public WeatherReport() {
+    }
 
     /**
      * Instantiates a new Weather report.
@@ -37,7 +40,7 @@ public class WeatherReport {
      * @param latitude     the latitude
      * @param longitude    the longitude
      */
-    public WeatherReport(String locationName,  String latitude, String longitude,  User user) {
+    public WeatherReport(String locationName, String latitude, String longitude, User user) {
         this.locationName = locationName;
         this.latitude = latitude;
         this.longitude = longitude;
@@ -136,4 +139,16 @@ public class WeatherReport {
     }
 
 
+    @Override
+    public boolean equals(Object o) {
+        if (o == null || getClass() != o.getClass()) return false;
+        WeatherReport that = (WeatherReport) o;
+        return id == that.id && Objects.equals(locationName, that.locationName) && Objects.equals(latitude, that.latitude) && Objects.equals(longitude, that.longitude) && Objects.equals(user, that.user);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, locationName, latitude, longitude, user);
+    }
 }
+
