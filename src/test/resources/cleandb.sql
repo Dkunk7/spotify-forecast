@@ -79,8 +79,8 @@ DROP TABLE IF EXISTS `weather`;
 CREATE TABLE `weather` (
   `id` int NOT NULL AUTO_INCREMENT,
   `location_name` varchar(100) NOT NULL,
-  `latitude` decimal(9,6) NOT NULL,
-  `longitude` decimal(9,6) NOT NULL,
+  `latitude` char(9) NOT NULL,
+  `longitude` char(9) NOT NULL,
   `user_id` int NOT NULL,
   PRIMARY KEY (`id`),
   KEY `weather_user_user_id_fk` (`user_id`),

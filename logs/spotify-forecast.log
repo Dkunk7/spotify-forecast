@@ -139,3 +139,34 @@ java.sql.SQLSyntaxErrorException: Unknown database 'spotifyforecast'
 	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:237) [junit-rt.jar:?]
 	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58) [junit-rt.jar:?]
 [INFO ] 2026-10-25 18:09:39.370 [main] UserDao - users: [edu.matc.entity.User@66314fee, edu.matc.entity.User@10f8e2d2, edu.matc.entity.User@5d404a3c]
+[INFO ] 2026-10-25 18:51:08.940 [main] WeatherReportDaoTest - ID from weather insert: 
+[INFO ] 2026-10-25 19:07:59.055 [main] WeatherReportDaoTest - ID from weather insert: 
+[INFO ] 2026-10-25 19:10:21.921 [main] WeatherReportDaoTest - ID from weather insert: 
+[DEBUG] 2026-10-25 19:10:21.928 [main] WeatherReportDaoTest - Reedsburg
+[INFO ] 2026-10-25 19:13:41.819 [main] WeatherReportDaoTest - ID from weather insert: 
+[DEBUG] 2026-10-25 19:13:41.827 [main] WeatherReportDaoTest - Reedsburg
+[DEBUG] 2026-10-25 19:16:46.829 [main] WeatherReportDaoTest - ID from weather insert: 
+[DEBUG] 2026-10-25 19:16:46.836 [main] WeatherReportDaoTest - Reedsburg
+[DEBUG] 2026-10-25 19:18:45.103 [main] WeatherReportDaoTest - ID from weather insert: 
+[DEBUG] 2026-10-25 19:18:45.110 [main] WeatherReportDaoTest - Reedsburg
+[DEBUG] 2026-10-25 19:20:00.159 [main] WeatherReportDaoTest - ID from weather insert: 5
+[DEBUG] 2026-10-25 19:20:00.165 [main] WeatherReportDaoTest - Reedsburg
+[DEBUG] 2026-10-25 19:22:34.774 [main] WeatherReportDaoTest - ID from weather insert: 5
+[DEBUG] 2026-10-25 19:22:34.781 [main] WeatherReportDaoTest - Reedsburg
+[DEBUG] 2026-10-25 19:25:13.202 [main] WeatherReportDaoTest - ID from weather insert: 5
+[DEBUG] 2026-10-25 19:25:13.209 [main] WeatherReportDaoTest - Reedsburg
+[DEBUG] 2026-10-25 19:30:00.159 [main] WeatherReportDaoTest - ID from weather insert: 5
+[DEBUG] 2026-10-25 19:30:00.165 [main] WeatherReportDaoTest - Reedsburg
+[DEBUG] 2026-10-25 19:38:53.049 [main] WeatherReportDaoTest - ID from weather insert: 5
+[DEBUG] 2026-10-25 19:38:53.055 [main] WeatherReportDaoTest - Reedsburg
+[DEBUG] 2026-10-25 19:43:01.200 [main] WeatherReportDaoTest - ID from weather insert: 5
+[DEBUG] 2026-10-25 19:43:01.207 [main] WeatherReportDaoTest - Reedsburg
+[DEBUG] 2026-10-25 19:55:40.359 [main] WeatherReportDaoTest - ID from weather insert: 5
+[DEBUG] 2026-10-25 19:55:40.365 [main] WeatherReportDaoTest - Reedsburg
+[DEBUG] 2026-10-25 19:58:30.609 [main] WeatherReportDaoTest - ID from weather insert: 5
+[DEBUG] 2026-10-25 19:58:30.616 [main] WeatherReportDaoTest - Reedsburg
+[DEBUG] 2026-10-25 20:04:18.435 [main] WeatherReportDaoTest - ID from weather insert: 5
+[DEBUG] 2026-10-25 20:04:18.444 [main] WeatherReportDaoTest - Reedsburg
+[DEBUG] 2026-10-25 20:05:10.741 [main] WeatherReportDaoTest - ID from weather insert: 5
+[DEBUG] 2026-10-25 20:05:10.748 [main] WeatherReportDaoTest - Reedsburg
+[INFO ] 2026-10-25 20:08:39.859 [main] WeatherReportDao - weatherReports: [edu.matc.entity.WeatherReport@c25d519, edu.matc.entity.WeatherReport@ebdaf153, edu.matc.entity.WeatherReport@adacf518]
