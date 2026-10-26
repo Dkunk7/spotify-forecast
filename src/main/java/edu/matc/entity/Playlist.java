@@ -23,6 +23,24 @@ public class Playlist {
     @ManyToOne(fetch = FetchType.EAGER)
     private User user;
 
+    /**
+     * Instantiates a new Playlist.
+     */
+    public Playlist() {}
+
+
+    /**
+     * Instantiates a new Playlist.
+     *
+     * @param playlistName the playlist name
+     * @param playlistLink the playlist link
+     * @param user         the user
+     */
+    public Playlist(String playlistName, String playlistLink, User user) {
+        this.playlistName = playlistName;
+        this.playlistLink = playlistLink;
+        this.user = user;
+    }
 
     /**
      * Gets id.
@@ -43,19 +61,21 @@ public class Playlist {
     }
 
     /**
-     * Instantiates a new Playlist.
+     * Gets user.
+     *
+     * @return the user
      */
-    public Playlist() {}
+    public User getUser() {
+        return user;
+    }
 
     /**
-     * Instantiates a new Playlist.
+     * Sets user.
      *
-     * @param playlistName the playlist name
-     * @param playlistLink the playlist link
+     * @param user the user
      */
-    public Playlist(String playlistName, String playlistLink) {
-        this.playlistName = playlistName;
-        this.playlistLink = playlistLink;
+    public void setUser(User user) {
+        this.user = user;
     }
 
     /**
