@@ -200,3 +200,8 @@ java.sql.SQLSyntaxErrorException: Unknown database 'spotifyforecast'
 [DEBUG] 2026-10-26 15:32:35.349 [main] WeatherReportDaoTest - Reedsburg
 [INFO ] 2026-10-26 15:32:55.427 [http-nio-8080-exec-4] UserDao - users: [edu.matc.entity.User@fad14473, edu.matc.entity.User@f288169c, edu.matc.entity.User@bfe87462]
 [INFO ] 2026-10-26 15:32:55.452 [http-nio-8080-exec-4] WeatherReportDao - weatherReports: [edu.matc.entity.WeatherReport@287b3a6f, edu.matc.entity.WeatherReport@8c7b9add, edu.matc.entity.WeatherReport@ad48837b]
+[INFO ] 2026-11-05 16:15:50.589 [main] PlaylistDao - playlists: [edu.matc.entity.Playlist@54caeadc, edu.matc.entity.Playlist@73316a0a, edu.matc.entity.Playlist@5f01fb5c]
+[INFO ] 2026-11-05 16:15:50.873 [main] UserDao - users: [edu.matc.entity.User@c19dbe3a, edu.matc.entity.User@80873b5b, edu.matc.entity.User@7c52399]
+[INFO ] 2026-11-05 16:15:51.409 [main] WeatherReportDao - weatherReports: [edu.matc.entity.WeatherReport@bde7d6f, edu.matc.entity.WeatherReport@8ff0a6f6, edu.matc.entity.WeatherReport@e0638e25]
+[DEBUG] 2026-11-05 16:15:51.552 [main] WeatherReportDaoTest - ID from weather insert: 5
+[DEBUG] 2026-11-05 16:15:51.557 [main] WeatherReportDaoTest - Reedsburg
